@@ -248,7 +248,7 @@ right: -0.3rem;
     padding: var(--card-padding);
     box-shadow: 0 0 2rem hsl(var(--color-primary), 75%, 60% 25%);
     z-index: 8;
-    display: none;
+
 }
 
 .left .notifications-popup::before{
