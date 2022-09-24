@@ -6,7 +6,7 @@
   --color-gray: hsl(252, 15%, 65%);
   --color-primary: hsl(252, 75%, 60%);
   --color-secondary: hsl(252, 100%, 90%);
-  --color-success: hsl(0, 95%, 65%);
+  --color-success: hsl(120, 95%, 65%);
   --color-danger: hsl(0, 95%, 65%);
   --color-dark: rgb(252, 30%, 17%);
   --color-black: hsl(252, 30%, 10%);
@@ -473,8 +473,13 @@ bottom:0;
   font-size: 0.85rem;
 }
 
+
 .right .messages .category .active{
   border-color:var(--color-dark);
+}
+
+.right .messages .message-requests{
+  color: var(--color-primary);
 }
 
 .right .messages .message{
@@ -484,6 +489,14 @@ bottom:0;
   align-items: start ;
 }
 
+.right .message .profile-photo {
+position: relative;
+overflow: visible;
+}
+
+.right .profile-photo img{
+  border-radius: 50%;
+}
 .right .messages .message:last-child{
   margin: 0;
 
@@ -491,4 +504,46 @@ bottom:0;
 
 .right .messages .message p{
   display: 0.8rem;
+}
+
+.right .messages .message .profile-photo .active{
+
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  border: 3px solid var(--color-white);
+  background: var(--color-success);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+/* ===================FRIEND REQUESTS====================== */
+
+.right .friend-requests{
+  margin-top: 1rem;
+}
+
+.right .friend-requests h4{
+  color: var(--color-gray);
+  margin: 1rem 0;
+}
+
+.right .request{
+  background: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  margin-bottom: 0.7rem;
+}
+
+.right .request .info{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.right .request .action{
+  display: flex;
+  gap: 1rem;
 }
