@@ -2,7 +2,7 @@
 
 :root {
 
-  --primary-color-hue:252;
+  --primary-color-hue:250;
   --color-white: hsl(252, 30%, 100%);
   --color-light: hsl(252, 30%, 95%);
   --color-gray: hsl(252, 15%, 65%);
@@ -117,6 +117,7 @@ nav .container {
 
 nav .search-bar input[type="search"]::placeholder {
   color: var(--color-gray);
+  
 }
 
 nav .create {
@@ -318,22 +319,22 @@ display: none;
 
 
 .middle .stories .story:nth-child(1){
-  background: url("./images/profile-1.jpg") no-repeat center center/cover;
+  background: url("./images/profile-2.jpg") no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(2){
   background: url("./images/profile-1.jpg") no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(3){
-  background: url("./images/profile-1.jpg") no-repeat center center/cover;
+  background: url("./images/profile-3.jpg") no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(4){
-  background: url("./images/profile-1.jpg") no-repeat center center/cover;
+  background: url("./images/profile-4.jpg") no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(5){
-  background: url("./images/profile-1.jpg") no-repeat center center/cover;
+  background: url("./images/profile-5.jpg") no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(6){
-  background: url("./images/profile-1.jpg") no-repeat center center/cover;
+  background: url("./images/profile-6.jpg") no-repeat center center/cover;
 }
 
 
@@ -458,6 +459,7 @@ bottom:0;
 .right .messages .search-bar{
   display: flex;
   margin-bottom: 1rem;
+  
   
 }
 
